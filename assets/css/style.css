@@ -77,50 +77,56 @@ header nav ul li a {
 }*/
 
 .feature-grid {
-    width: 80%;
-    margin-left: auto; margin-right: auto;
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+    padding-top: 3rem;
     padding-bottom: 6rem;
+    background-color: #304c5c;
 }
 
 .section-title {
     font-size: 1.7vw;
-    padding: 20px 0;
     text-align: center;
     margin: 0 auto 35px auto;
+    padding-bottom: 1rem;
     width: 50%;
-    color: #304c5c;
+    color: #9681B6;
+    border-bottom: #9681B6 3px solid;
   }
 
 .bio-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    width: 90%;
+    justify-content: space-around;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #9681B6;
 }
 
 .bio-pic {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: left;
     padding: 10px;
-    border: #9681B6 10px solid;
+    border: #304c5c 10px solid;
     border-radius: 50px;
-    margin: 0 0 50px 0;
+    margin: 15px 0 15px 0;
 }
 
 .bio-pic img {
     height: 400px;
     width: auto;
+    border-radius: 50px;
 }
 
 .bio-content {
-    width: 75%;
-    background: none;
-    color: black;
+    width: 70%;
+    margin: auto 0 auto 50px;
+    color: #a8ddf9;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    font-size: 25px;
 }
 
 .work-container {

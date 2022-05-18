@@ -14,14 +14,15 @@ body {
 .site-header {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     background: #304c5c;
+    flex-direction: column;
 }
 
-.brand {
+ .brand { 
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .brand img {
@@ -32,9 +33,10 @@ body {
 header nav ul {
     display: flex;
     flex-wrap: flex;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 3rem;
     list-style: none;
-    padding: 75px 15px 0 0;
+    padding: 35px 0 15px 0;
 }
 
 header nav ul li a {
@@ -63,9 +65,25 @@ header nav ul li a {
 
 /* SECTION TITLES STYLING */
 
+/*.bio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #9ba4a9;}
+
+.bio {
+    display: block;
+    text-align: center;
+}*/
+
+.feature-grid {
+    width: 80%;
+    margin-left: auto; margin-right: auto;
+    padding-bottom: 6rem;
+}
+
 .section-title {
-    font-size: 48px;
-    border: 10px #9681B6;
+    font-size: 1.7vw;
     padding: 20px 0;
     text-align: center;
     margin: 0 auto 35px auto;
@@ -73,29 +91,19 @@ header nav ul li a {
     color: #304c5c;
   }
 
-.bio {
-    width: 100%;
-    margin: 0 auto;
+.bio-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
-
-.bio-content {
-    width: 75%;
-    background: none;
-    color: black;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    width: 90%;
 }
 
 .bio-pic {
     display: flex;
     flex-wrap: wrap;
-    justify-content: left;
+    justify-content: center;
+    position: absolute;
     align-items: left;
-    width: 100%;
     padding: 10px;
     border: #9681B6 10px solid;
     border-radius: 50px;
@@ -107,6 +115,28 @@ header nav ul li a {
     width: auto;
 }
 
-.text-left {
-    text-align: left;
+.bio-content {
+    width: 75%;
+    background: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.work-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    width: 75%;
+    margin-left: auto; margin-right: auto;
+}
+
+.work-grid {
+    height: 300px;
+    border: 4px solid #304c5c;
+}
+
+.top {
+    grid-column: 1/3;
 }

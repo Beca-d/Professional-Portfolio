@@ -29,17 +29,12 @@ body {
     width: auto;
 }
 
-header nav {
-    margin: 10px 1px;
-    color: azure;
-}
-
 header nav ul {
     display: flex;
     flex-wrap: flex;
     justify-content: space-between;
     list-style: none;
-    padding-top: 50px;
+    padding: 75px 15px 0 0;
 }
 
 header nav ul li a {
@@ -51,33 +46,67 @@ header nav ul li a {
 }
 
 .hero {
-    background-image: url("../images/hero-bg.jpg");
+    background-image: url("../images/hero2.jpg");
     background-size: cover;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: right;
     flex-wrap: wrap;
 }
 
-.hero-det {
-    padding: 100px 0;
-    margin: 0;
+.hero-det h2 {
+    padding: 150px 50px 150px 0;
     background: none;
-    font-size: 55px;
-    color: aliceblue;
+    font-size: 45px;
+    color: #304c5c;
 }
 
+/* SECTION TITLES STYLING */
+
+.section-title {
+    font-size: 48px;
+    border: 10px #9681B6;
+    padding: 20px 0;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
+    color: #304c5c;
+  }
+
 .bio {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.bio-content {
+    width: 75%;
+    background: none;
+    color: black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bio-pic {
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
-}
-
-.bio img {
-    height: 400px;
-    width: auto;
+    align-items: left;
+    width: 100%;
     padding: 10px;
     border: #9681B6 10px solid;
     border-radius: 50px;
     margin: 20px;
+}
+
+.bio-pic img {
+    height: 400px;
+    width: auto;
+}
+
+.text-left {
+    text-align: left;
 }

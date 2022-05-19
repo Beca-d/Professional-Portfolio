@@ -1,3 +1,5 @@
+/* General styling for the whole documetn */
+
 * {
     margin: 0;
     padding: 0;
@@ -18,7 +20,7 @@ body {
     background: #304c5c;
     flex-direction: column;
 }
-
+/* Styling the logo with image, name, and job title */
  .brand { 
     display: flex;
     flex-wrap: wrap;
@@ -30,6 +32,7 @@ body {
     width: auto;
 }
 
+/* Styling Navigation Bar in header */
 header nav ul {
     display: flex;
     flex-wrap: flex;
@@ -46,7 +49,7 @@ header nav ul li a {
     text-decoration: none;
     color: #9681B6;
 }
-
+/* Background image/jumbotron at top of page */
 .hero {
     background-image: url("../images/hero2.jpg");
     background-size: cover;
@@ -183,7 +186,7 @@ header nav ul li a {
     align-items: center;
     font-weight: lighter;
 }
-
+/* IDs for each grid item, contains hyperlink and specific titles */
 #run-buddy {
     grid-column: 1/3;
     background: url("../images/run-buddy.jpg");
@@ -217,6 +220,7 @@ header nav ul li a {
     padding-top: 1%;
 }
 
+/* Navigation for the contact info styling */
 .contact-deets nav ul {
     display: flex;
     flex-wrap: flex;
@@ -245,6 +249,7 @@ header nav ul li a {
     border-right: #304c5c 4px solid;
 }
 
+/* footer */
 .footer-style {
     margin: auto 0 auto 50px;
     color: #9681B6;

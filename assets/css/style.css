@@ -235,14 +235,16 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 1.4vw;
     text-decoration: none;
-    color:#304c5c;
+    color:black;
+    font-weight: bold;
     border-left: #304c5c 4px solid;
     padding: 2rem;
 }
 
 .contact-deets nav ul li a {
     text-decoration: none;
-    color:#304c5c;
+    color:black;
+    font-weight: bold;
 }
 
 #resume-line {

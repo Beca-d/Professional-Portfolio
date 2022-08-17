@@ -187,20 +187,26 @@ header nav ul li a {
     font-weight: lighter;
 }
 /* IDs for each grid item, contains hyperlink and specific titles */
-#run-buddy {
+#pethub {
     grid-column: 1/3;
-    background: url("../images/run-buddy.jpg");
+    background: url("../images/pethubmap.png");
     background-size: cover;
+}
+
+#music-box {
+    grid-column: 1/3;
+    background: url("../images/musicBox1.JPG");
+    background-size: left;
 }
 
 #hori {
-    background: url("../images/horiseon.jpg");
+    background: url("../images/Planner.JPG");
     background-size: cover;
 }
 
-#coming-soon {
-    background: url("../images/musicBox1.JPG");
-    background-size: top;
+#javaquiz {
+    background: url("../images/JS_quiz2.JPG");
+    background-size: cover;
 }
 
 /* Contact Section Styling */
